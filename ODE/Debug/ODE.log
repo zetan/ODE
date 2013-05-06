@@ -1,0 +1,30 @@
+﻿生成启动时间为 2013/5/6 22:28:28。
+     1>项目“D:\lessons\animations\assignment\ODE\ODE\ODE.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ODE.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtOpenGL /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtCore /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtGui /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles /I. /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Debug /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtCore /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtGui /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtOpenGL /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ball.cpp
+         ball.cpp
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lessons\animations\assignment\ODE\Win32\Debug\\ODE.exe" /NOLOGO /LIBPATH:D:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ODE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\lessons\animations\assignment\ODE\Win32\Debug\ODE.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lessons\animations\assignment\ODE\Win32\Debug\ODE.lib" /MACHINE:X86 Debug\ball.obj
+         Debug\canvas.obj
+         Debug\moc_canvas.obj
+         Debug\moc_ode.obj
+         Debug\qrc_ode.obj
+         Debug\main.obj
+         Debug\ode.obj
+         LINK : 没有找到 D:\lessons\animations\assignment\ODE\Win32\Debug\\ODE.exe 或上一个增量链接没有生成它；正在执行完全链接
+         ODE.vcxproj -> D:\lessons\animations\assignment\ODE\Win32\Debug\ODE.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\lessons\animations\assignment\ODE\Win32\Debug\\ODE.exe;#1" /manifest Debug\ODE.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ODE.unsuccessfulbuild”。
+         正在对“Debug\ODE.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\lessons\animations\assignment\ODE\ODE\ODE.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.61

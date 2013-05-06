@@ -1,0 +1,41 @@
+﻿生成启动时间为 2013/5/6 22:01:46。
+     1>项目“D:\lessons\animations\assignment\ODE\ODE\ODE.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\lessons\animations\assignment\ODE\Win32\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\ODE.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing ode.h...
+         Uic'ing ode.ui...
+         Moc'ing canvas.h...
+         Rcc'ing ode.qrc...
+     1>RCC : warning : No resources in 'D:\lessons\animations\assignment\ODE\ODE\ode.qrc'.
+         
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Release /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtCore /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtGui /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtOpenGL /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt canvas.cpp GeneratedFiles\Release\moc_canvas.cpp GeneratedFiles\Release\moc_ode.cpp main.cpp ode.cpp
+         canvas.cpp
+         moc_canvas.cpp
+         moc_ode.cpp
+         main.cpp
+         ode.cpp
+         正在生成代码...
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Release /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtCore /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtGui /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtOpenGL /ID:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_ode.cpp
+         qrc_ode.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lessons\animations\assignment\ODE\Win32\Release\\ODE.exe" /NOLOGO /LIBPATH:D:\Appliacation\Programming\QtOpengl5.0.2\5.0.2\msvc2010_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5OpenGL.lib opengl32.lib glu32.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ODE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\lessons\animations\assignment\ODE\Win32\Release\ODE.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lessons\animations\assignment\ODE\Win32\Release\ODE.lib" /MACHINE:X86 Release\canvas.obj
+         Release\qrc_ode.obj
+         Release\moc_canvas.obj
+         Release\moc_ode.obj
+         Release\main.obj
+         Release\ode.obj
+         ODE.vcxproj -> D:\lessons\animations\assignment\ODE\Win32\Release\ODE.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\lessons\animations\assignment\ODE\Win32\Release\\ODE.exe;#1" /manifest Release\ODE.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\ODE.unsuccessfulbuild”。
+         正在对“Release\ODE.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\lessons\animations\assignment\ODE\ODE\ODE.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.75
