@@ -62,6 +62,15 @@
     <ClCompile Include="ball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BallisticScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceBall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="ode.h">
@@ -85,6 +94,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BallisticScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceBall.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

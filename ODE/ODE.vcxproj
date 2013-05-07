@@ -78,7 +78,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ball.cpp" />
+    <ClCompile Include="BallisticScene.cpp" />
     <ClCompile Include="canvas.cpp" />
+    <ClCompile Include="Floor.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_canvas.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -99,6 +101,7 @@
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ode.cpp" />
+    <ClCompile Include="TraceBall.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="ode.h">
@@ -127,6 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ball.h" />
+    <ClInclude Include="BallisticScene.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="TraceBall.h" />
     <ClInclude Include="Vector3D.h" />
     <CustomBuild Include="canvas.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
